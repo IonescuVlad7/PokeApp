@@ -1,0 +1,36 @@
+body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3); /* Dark mode zone with 50% opacity */
+    color: #fff;
+    background-size: cover; /* Adjust the background sizing */
+    background-repeat: no-repeat;
+  }
+  
+  .container .mat-tab-label {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .container .actions input[type="text"] {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .container .pokemon-details {
+    background-color: #222;
+    color: #fff;
+  }
+
+  .vertical-dark-mode{
+    height: 200px;
+  }
+  
